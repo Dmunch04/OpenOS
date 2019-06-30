@@ -1,0 +1,12 @@
+var Time = %%SYSTEM_GET_TIME;;
+var Timezone = %%SYSTEM_GET_TIMEZONE;;
+
+func Shutdown = new (Args?) :: {
+  %%SYSTEM_DO_CLOSE_ALL;;
+  %%SYSTEM_DO_SHUTDOWN;;
+}
+
+func Reboot = new (Args?) :: {
+  %%SYSTEM_DO_CLOSE_ALL;;
+  %%SYSTEM_DO_REBOOT;;
+}

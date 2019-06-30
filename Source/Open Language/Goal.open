@@ -1,0 +1,16 @@
+var Sys = !imp System;
+
+func Getter = new (Timezone?) :: {
+  if !(Timezone == 0 && Timezone == un) :: {
+    ret :: Sys.Time.Timezone (Timezone);
+  }
+
+  else :: {
+    ret :: Sys.Time.Get (00, 00);
+  }
+}
+
+func Main = new event () :: {
+  var Time = Getter (Sys.Timezone);
+  print :: Time
+}

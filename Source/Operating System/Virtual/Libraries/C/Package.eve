@@ -1,0 +1,8 @@
+[
+  'Name' :: 'stdlib'
+  'Version' :: '0.0.1'
+  'Author' :: 'Munchii'
+  'Description' :: 'The standard library, for C'
+  'CreationDate' :: '30-06-2019'
+  'MainFolder' :: 'Source'
+];
